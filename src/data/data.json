@@ -1,0 +1,424 @@
+{
+  "york": [
+    {
+      "name": "Minisplit HW 1TR / 2TR",
+      "link": "https://s3-us-west-2.amazonaws.com/qcdocs/manuales/minisplits/york/2017%20Minisplit%20HighWall%20R410a%20%20YORK%20YH9FZC09-24BAH-AFX%20-%20151208%2060Hz%20Class%20C%20%20QC.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIPGSERXCDTMSMUOA/20180321/us-west-2/s3/aws4_request&X-Amz-Date=20180321T190555Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Signature=69b858ae1ddfd0e1ca85408c13c4f801cb2f75150cf114a9a9d2505d05da59a3",
+      "image": "prod1.jpg"
+    },
+    {
+      "name": "Piso techo de 2 a 5TR",
+      "link": "pdf/Spanish - Piso Techo, Cassette and Ducto-Fan Coil 60 Hz-Fixed (PUBL-8492ES).pdf",
+      "image": "prod2.jpg"
+    },
+    {
+      "name": "Paquete residencial de 2 a 5TR",
+      "link": "pdf/Grande  Rooftop Package (YMGE) air conditoner 60HZ R410A  14 SEER.pdf",
+      "image": "prod3.jpg"
+    },
+    {
+      "name": "CASSETTES de 2 a 5TR",
+      "link": "pdf/Spanish - Piso Techo, Cassette and Ducto-Fan Coil 60 Hz-Fixed (PUBL-8492ES).pdf",
+      "image": "prod4.jpg"
+    },
+    {
+      "name": "FAN AND COILS 2 a 5TR",
+      "link": "pdf/Spanish - Piso Techo, Cassette and Ducto-Fan Coil 60 Hz-Fixed (PUBL-8492ES).pdf",
+      "image": "prod5.jpg"
+    },
+    {
+      "name": "FAN AND COILS de agua helada",
+      "link": "pdf/CM-YGFC-Fan-Coil-Unit-Catalogue.pdf",
+      "image": "prod6.jpg"
+    },
+    {
+      "name": "EQUIPOS DIVIDIDOS RESIDENCIALES 1.5 a 50 TR",
+      "link": "pdf/Spanish - Divididos Residenciales (HASTA 5TR)- PUBL-8519ES-LA.pdf",
+      "image": "prod7.jpg"
+    },
+    {
+      "name": "PAQUETES COMERCIALES DE 6.5 A 40 TR ",
+      "link": "pdf/Spanish - Paquetes y Divididos Comerciales PUBL 8520ES-LA.pdf",
+      "image": "prod8.jpg"
+    },
+    {
+      "name": "Stemas VRF",
+      "link": "pdf/Spanish YORK_VRF_Linecard_PUBL-8365_SPA.pdf",
+      "image": "prod9.jpg"
+    },
+    {
+      "name": "Chillers 15 a 230 TR",
+      "link": "pdf/Linecard STCLTC.pdf",
+      "image": "prod10.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Minisplit",
+      "link": "minisplit"
+    },
+    {
+      "name": "Linea Hogar",
+      "link": "hogar"
+    },
+    {
+      "name": "Paquetes",
+      "link": "paquetes"
+    },
+    {
+      "name": "Divididos",
+      "link": "divididos"
+    },
+    {
+      "name": "Energia Solar",
+      "link": "solar"
+    }
+  ],
+  "minisplit": [
+    {
+      "name": "X2",
+      "category": "",
+      "img": "/img/productos/small/x2a.jpg",
+      "imgLarge": "img/minisplit/x2.jpg",
+      "specs": "assets/pdf/X2.pdf"
+    },
+    {
+      "name": "X3",
+      "category": "",
+      "img": "img/productos/small/x3.jpg",
+      "imgLarge": "img/minisplit/x3.jpg",
+      "specs": "assets/pdf/X3.pdf"
+    },
+    {
+      "name": "Inverter 17",
+      "category": "",
+      "img": "img/new/inverter17-small.jpg",
+      "imgLarge": "img/minisplit/inverter17.jpg",
+      "specs": "assets/pdf/INVERTER17.pdf"
+    },
+    {
+      "name": "Magnum 17",
+      "category": "",
+      "img": "https://www.aadoccsa.com.mx/img/productos/magnum17.jpg",
+      "imgLarge": "img/minisplit/magnum17.jpg",
+      "specs": "assets/pdf/MAGNUM17.pdf"
+    },
+    {
+      "name": "Magnum 19",
+      "category": "",
+      "img": "img/new/magnum19-small.jpg",
+      "imgLarge": "img/minisplit/magnum19.jpg",
+      "specs": "assets/pdf/MAGNUM19.pdf"
+    },
+    {
+      "name": "Magnum 32",
+      "category": "",
+      "img": "img/new/magnum32-small.jpg",
+      "imgLarge": "img/minisplit/magnum32.jpg",
+      "specs": "assets/pdf/MAGNUM32.pdf"
+    },
+    {
+      "name": "MATT 17",
+      "category": "",
+      "img": "img/new/MATT17-small.jpg",
+      "imgLarge": "img/minisplit/MATT17.jpg",
+      "specs": "assets/pdf/MATT17.pdf"
+    },
+    {
+      "name": "NEO",
+      "img": "https://www.aadoccsa.com.mx/img/new/NEO-small.jpg",
+      "imgLarge": "img/minisplit/neo.jpg",
+      "specs": "assets/pdf/NEO.pdf"
+    },
+    {
+      "name": "X LIFE",
+      "category": "",
+      "img": "https://www.aadoccsa.com.mx/img/new/X-LIFE-small.jpg",
+      "imgLarge": "img/minisplit/x-life.jpg",
+      "specs": "assets/pdf/NEO.pdf"
+    },
+    {
+      "name": "WIFI 2018",
+      "category": "",
+      "img": "https://www.aadoccsa.com.mx/img/new/WIFI-2018-small.jpg",
+      "imgLarge": "img/minisplit/wifi-2018.jpg",
+      "specs": "assets/pdf/WIFI-2018.pdf"
+    }
+  ],
+  "hogar": [
+    {
+      "name": "Flux 16L",
+      "category": "Calentadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/flux16l.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/calentadores/flux-16l/gallery_group.jpg",
+      "specs": "productos/images/hogar/calentadores/flux-16l/tabla-16l.jpg"
+    },
+    {
+      "name": "Flux 10L",
+      "category": "Calentadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/flux10l.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/calentadores/flux-10l/gallery_group.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/calentadores/flux-10l/tabla-10l.jpg"
+    },
+    {
+      "name": "Flux 6L",
+      "category": "Calentadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/flux6l.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/calentadores/flux-6l/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/calentadores/flux-6l/tabla-6l.jpg"
+    },
+    {
+      "name": "Refx 10",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/reflex10.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex10/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex10/tabla-ref10.jpg"
+    },
+    {
+      "name": "Refx 20",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/reflex20.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex20/gallery_closeup.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex20/tabla-ref20.jpg"
+    },
+    {
+      "name": "Refx 30",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/reflex30.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex30/gallery_closeup.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/frigobar/reflex30/tabla-ref20.jpg"
+    },
+    {
+      "name": "Disx 10",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/disx10.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx10/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx10/tabla-disx10.jpg"
+    },
+    {
+      "name": "Disx 20",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/disx30.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx20/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx20/tabla-disx20.jpg"
+    },
+    {
+      "name": "Disx 30",
+      "category": "Frigobar",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/disx30.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx30/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/dispensadores/disx30/tabla-disx30.jpg"
+    },
+    {
+      "name": "Velox 90L",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/velox90l.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90l/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90l/tabla-90l.jpg"
+    },
+    {
+      "name": "Velox 90n",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/velox90n.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90n/velox90n-main.png",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90n/tabla-v90n.jpg"
+    },
+    {
+      "name": "Velox 90r",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/velox90r.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90r/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/velox90r/tabla-v90r.jpg"
+    },
+    {
+      "name": "Velox 60L",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/verlox60l.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox60l/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox60l/tablavelox60l.jpg"
+    },
+    {
+      "name": "Velox 60S",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/verlox60s.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox60s/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox60s/tabla-velox60s.jpg"
+    },
+    {
+      "name": "Velox 75",
+      "category": "Campanas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/verlox75.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox75/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/campanas/verlox75/tabla-v75.jpg"
+    },
+    {
+      "name": "Sparx 90B",
+      "category": "Parrillas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/sparx90b.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx90b/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx90b/tabla-s90b.jpg"
+    },
+    {
+      "name": "Sparx 90s",
+      "category": "Parrillas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/sparx90s.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx90s/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx90s/tabla-s90s.jpg"
+    },
+    {
+      "name": "Sparx 80",
+      "category": "Parrillas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/sparx80.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx80/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx80/tabla-s80.jpg"
+    },
+    {
+      "name": "Sparx 75",
+      "category": "Parrillas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/sparx75.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx75/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx75/tabla-s75.jpg"
+    },
+    {
+      "name": "Sparx 60",
+      "category": "Parrillas para cocina",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/sparx60.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx60/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/parrillas/sparx60/tabla-s60.jpg"
+    },
+    {
+      "name": "Hydrox 50R",
+      "category": "Purificadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/hydrox50r.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox50r/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox50r/tabla-h50r.jpg"
+    },
+    {
+      "name": "Hydrox 50A",
+      "category": "Purificadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/hydrox50a.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox50a/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox50a/tabla-h50a.jpg"
+    },
+    {
+      "name": "Hydrox 60",
+      "category": "Purificadores de Agua",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/hydrox60.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox60/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox60/tabla-h60.jpg"
+    },
+    {
+      "name": "Icex 90",
+      "category": "Máquinas de Hielo",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/icex40.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/maquinasdehielo/icex90/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/purificadores/hydrox40/tabla-h40.jpg"
+    },
+    {
+      "name": "Icex 60",
+      "category": "Máquinas de Hielo",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/icex40.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/maquinasdehielo/icex60/gallery_main.jpg",
+      "specs": "hhttps://www.aadoccsa.com.mx/productos/images/hogar/maquinasdehielo/icex60/tabla1.jpg"
+    },
+    {
+      "name": "Icex 40",
+      "category": "Máquinas de Hielo",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/icex40.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/maquinasdehielo/icex40/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/maquinasdehielo/icex40/tabla-i40.jpg"
+    },
+    {
+      "name": "Cappuxino",
+      "category": "Máquinas Gourmet de Café",
+      "img": "https://www.aadoccsa.com.mx/img/productos/small/cappuxino.jpg",
+      "imgLarge": "https://www.aadoccsa.com.mx/productos/images/hogar/cafe/cappuxino/gallery_main.jpg",
+      "specs": "https://www.aadoccsa.com.mx/productos/images/hogar/cafe/cappuxino/tabla-cappuxino.jpg"
+    }
+  ],
+  "paquetes": [
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    },
+    {
+      "img": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/small/IMG_1192.jpg",
+      "large": "https://www.aadoccsa.com.mx/productos/images/maquinasdepaquete/IMG_1193.jpg"
+    }
+  ]
+}

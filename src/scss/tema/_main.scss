@@ -1,0 +1,364 @@
+.home{
+  margin-top: 2em;
+  //background: rgba(orange,.5);
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  @include desde(web){
+    border-right: $bordes;
+    margin-top: 4em;
+  }
+  &:nth-child(4){
+    border-right: none !important;
+  }
+  &__title{
+    text-align: center;
+    background: img("number-fondo.png") 100% 100% / cover;
+    width: 200px;
+    line-height: 2em;
+    margin: 0 auto;
+    color: $blanco;
+    margin-bottom: 1em;
+  }
+  &__services{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    li{
+      text-align: center;
+    }
+  }
+  &__text{
+    text-align: center;
+  }
+  &__img{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .vermas{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: $blanco;
+    border-top: $bordes;
+    padding-top: 1em;
+    width: 60%;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: all .3s;
+    &:hover{
+      color: darken($azul-oscuro,15);
+    }
+  }
+}
+.home-title {
+  margin-top: .8em;
+  font-size: 1.2em;
+  text-align: center;
+  color: $blanco;
+  padding-bottom: .8em;
+  border-bottom: $bordes;
+  font-family: "Passion One",cursive;
+  @include desde(tablet){
+    font-size: 3em;
+  }
+  span{
+    display: block;
+    color: $darken-rojo;
+  }
+}
+.imagenes{
+  .ed-item{
+    margin-top: 2em;
+  }
+  &-item{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid $azul-oscuro;
+    box-shadow: 3px 3px 6px darken($azul-oscuro,10);
+    @include desde(tablet){
+      width: 80%;
+    }
+    @include desde(web){
+      width: 70%;
+    }
+  }
+}
+.servicios-list{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #111;
+  font-weight: bold;
+  @include desde(tablet){
+    height: 230px;
+    //background: $blanco;
+  }
+  li{
+    margin-bottom: .5em;
+  }
+}
+.contra-list{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
+  li{
+    text-align: center;
+    margin-bottom: .5em;
+  }
+}
+.contacto{
+  h2{
+    //background: yellow;
+    width: 80%;
+    margin: 0 auto;
+    font-family: $muli;
+    text-align: center;
+    padding-bottom: .5em;
+    border-bottom: $bordes;
+    margin-bottom: 1em;
+    span{
+      color: $darken-rojo;
+      font-size: 1.2em;
+    }
+  }
+}
+.formulario{
+  margin-top: 2em;
+  @include desde(web){
+    margin-top: 0;
+    border-left: $bordes;
+  }
+  #formulario{
+    width: 70%;
+    margin: 0 auto;
+    ul{
+      margin-left: 0;
+      padding-left: 0;
+      list-style: none;
+      li{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .8em;
+        @include hasta(688px) {
+          flex-direction: column;
+        }
+      }
+      label{
+        text-align: right;
+        width: 18%;
+        @include hasta(688px){
+          display: block;
+          width: 100%;
+          text-align: left;
+        }
+      }
+      input, textarea{
+        width: 80%;
+        outline: none;
+        border: $bordes;
+        background: rgba($blanco,.1);
+        padding: 2px 4px;
+        resize: none;
+        @include hasta(688px){
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    .btn{
+      line-height: 1;
+      border: $bordes;
+      color: rgba($blanco,.75);
+      background: $color-menu-hover;
+      padding: 5px 10px;
+      float: right;
+      outline: none;
+      transition: all .3s;
+      &:hover{
+        background: darken($color-menu-hover,10);
+      }
+    }
+  }
+}
+.adress-contacto{
+  text-align: center;
+  font-weight: bold;
+  //margin-top: 1em;
+}
+.datos{
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  .medios{
+    font-size: .8em;
+    text-align: right;
+    padding-top: 4px;
+  }
+  .tel{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    a{
+      font-weight: bolder;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+.co{
+  text-align: right;
+  font-size: .8em;
+}
+.mirage{
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  margin: 1em auto 3em;
+}
+.tabs {
+  &__links, &__contents {
+    width: 80%;
+    margin: auto;
+  }
+  &__links {
+    display: table;
+    position: relative;
+    top: 1px;
+    a {
+      display: block;
+      float: left;
+      line-height: 3;
+      background: #ddd;
+      padding: 0 1em;
+      text-decoration: none;
+      margin-right: 1px;
+      border-radius: 5px 5px 0 0;
+      border: 1px solid #bbb;
+      color: steelblue;
+      border-bottom-color: transparent;
+      position: relative;
+      &.active {
+        z-index: 100;
+        background: #eee;
+        font-weight: bold;
+      }
+    }
+  }
+  &__contents {
+    position: relative;
+    &__item {
+      background: #eee;
+      padding: 1em;
+      border: 1px solid #bbb;
+      /* position: absolute;
+       top: 0;
+       left: 0;*/
+      display: none;
+      width: 100%;
+      &.active {
+        display: block;
+      }
+    }
+  }
+}
+.imagenes-prod{
+  padding: 0 3em;
+  h4{
+    margin: 1em 0 .3em;
+
+  }
+}
+.imagenes-prod-item{
+  @extend .imagenes-item;
+  width: 100%;
+}
+
+.link{
+  display: block;
+  text-align: center;
+  margin-top: .5em;
+}
+.separator{
+  .ed-item{
+    margin-top: 2em;
+  }
+}
+.tabs__contents{
+  h4, .extendh4{
+    font-family: $muli;
+    color: $darken-rojo;
+    font-size: 1.5em;
+  }
+  h3{
+    @extend .extendh4;
+    text-align: center;
+    color: rgba($gris-oscuro,.75);
+    margin-top: 2em;
+  }
+}
+.mapa{
+  width: 40%;
+  margin: 1em auto 0;
+}
+.videos-new{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: lightgreen;
+  padding: 0 3em;
+}
+.svideo{
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1em;
+  }
+}
+.phone-title{
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.phone{
+  margin-left: 0 !important;
+}
+
+.link-title{
+  transition: transform .3s;
+  transform: scale(1);
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+.btn-container{
+  display: none
+}
+
+@media screen and (orientation: portrait) and(max-width: 928px){
+  .imagenes-prod{
+    display: none;
+    &:nth-child(-n+3){
+      display: block;
+    }
+  }
+  .btn-container{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  .see-more{
+
+  }
+  .hide{
+    display: none;
+  }
+}

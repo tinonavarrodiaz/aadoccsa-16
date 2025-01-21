@@ -1,0 +1,31 @@
+extends templates/template
+
+//- Append permite añadir contenido al final de un bloque
+append config
+  -paginaActual = "nosotros"
+  -titulo = "Nosotros"
+
+block banner
+  img.img(src="img/new/magnum32.jpg")
+block main
+  h1.title-page Aire Acondicionado de Occidente S.A de C.V.
+  p.text-page Nos dedicamos a la venta, instalación, servicios, mantenimiento de equipos para aire acondicionado des el año 1984, incluyendo refacciones, refrigerantes, tuberías, etc.
+  .ed-container.imagenes
+    .ed-item.movil-50.web-25
+      img.imagenes-item(src="img/productos/small/new/x2.jpg")
+    .ed-item.movil-50.web-25
+      img.imagenes-item(src="img/productos/small/new/x3.jpg")
+    .ed-item.movil-50.web-25
+      img.imagenes-item(src="img/productos/small/new/magnum17.jpg")
+    .ed-item.movil-50.web-25
+      img.imagenes-item(src="img/productos/small/new/x36.jpg")
+  .ed-container.imagenes.desde-web
+    -for(var i = 1; i<=4; i++)
+      .ed-item.tablet-50.web-25
+        img.imagenes-item(src="img/nosotros/small/imagen0#{i}.jpg")
+
+      //-
+        169 - 97
+
+        700 -169
+        ?  -97

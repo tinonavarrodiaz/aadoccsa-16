@@ -1,0 +1,23 @@
+.img{
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2.5em;
+}
+.title-page{
+  width: 100%;
+  text-align: center;
+  color: darken($gris-oscuro,5);
+  margin-top: 1em;
+  //background: #000;
+}
+.text-page{
+  text-align: center;
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+.color-blanco{
+  color: $blanco;
+}

@@ -1,0 +1,137 @@
+.aside{
+  min-height: 150px;
+  background: $azul-claro;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  .adress-container{
+    height: 100%;
+
+
+    .adress{
+      width: 100%;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      //background: #000;
+      @include desde(web){
+        border-right: $bordes;
+
+      }
+      li{
+        font-weight: bold;
+        font-size: .8em;
+        &:nth-child(1) {
+          margin-left: 81px;
+          font-size: .9em;
+        }
+        & span{
+          display: inline-block;
+          width: 70px;
+          font-size: .9em;
+          font-weight: normal;
+          text-align: right;
+          margin-right: 10px;
+        }
+      }
+    }
+
+  }
+  .redes-container{
+
+    .redes{
+      height: 75px;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        margin: 0 .5em;
+        a{
+          $tamano: 40px;
+          display: block;
+          width: $tamano;
+          height: $tamano;
+          line-height: $tamano;
+          //background: #fff;
+          text-align: center;
+          font-size: 1em;
+          border-radius: 50%;
+          color: $blanco;
+          transition: all .3s;
+        }
+      }
+    }
+  }
+}
+.icon-facebook{
+  background: $color-fb ;
+  border: 1px solid darken($color-fb,15);
+  &:hover{
+    background: darken($color-fb,15);
+  }
+}
+.icon-twitter{
+  background: $color-tw;
+  border: 1px solid darken($color-tw,15);
+  &:hover{
+    background: darken($color-tw,15);
+  }
+}
+.icon-youtube{
+  background: $color-yt;
+  border: 1px solid darken($color-yt,15);
+  &:hover{
+    background: darken($color-yt,15);
+  }
+}
+.phone{
+  margin-left: 3em;
+}
+
+.contacto .formulario-aside{
+  display: none;
+}
+
+.formulario-aside{
+  padding-top: 1em;
+  .row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    @include hasta(688px){
+      display: block;
+      width: 100%;
+    }
+  }
+  .input-group{
+    margin-bottom: .5em;
+    
+  }
+  input, textarea{
+    font-family : $body--font-family;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: $bordes;
+    background: rgba($blanco,.1);
+    padding: 2px 4px;
+    resize: none;
+  }
+  .btn{
+    line-height: 1;
+    border: $bordes;
+    color: rgba($blanco,.75);
+    background: $color-menu-hover;
+    padding: 5px 10px;
+    outline: none;
+    transition: all .3s;
+    &:hover{
+      background: darken($color-menu-hover,10);
+    }
+  }
+}
+

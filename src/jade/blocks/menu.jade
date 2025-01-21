@@ -1,0 +1,18 @@
+// -var paginas = ["inicio","nosotros","servicios","productos","ventilación y extracción","contratistas","promociones","ofertas","contacto"]
+-var paginas = ["inicio","nosotros","servicios","productos","ventilación y extracción", "calentador solar","contratistas","promociones","contacto"]
+
+each pagina in paginas
+  //- Interpolar una variable significa utilizar su valor para construir strings. Para hacerlo, se debe insertar dentro de #{}
+  if pagina == "inicio"
+    if paginaActual == "inicio"
+      li: a(href="index.html" class="selected") #{pagina}
+    else
+      li: a(href="./") #{pagina}
+  else if(pagina == "ventilación y extracción")
+    li: a(href="extraccion.html") #{pagina}
+  else if(pagina == "calentador solar")
+    li: a(href="calentador-solar.html") #{pagina}
+  else if paginaActual == pagina
+    li: a(href="#{pagina}.html" class="selected") #{pagina}
+  else
+    li: a(href="#{pagina}.html") #{pagina}

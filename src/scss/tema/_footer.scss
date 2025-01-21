@@ -1,0 +1,20 @@
+.footer{
+  background: $azul-oscuro;
+  height: 4em;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .8em;
+  p{
+    color: $blanco;
+    text-align: center;
+    a{
+      color: darken(steelblue,30);
+      font-weight: bold;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}

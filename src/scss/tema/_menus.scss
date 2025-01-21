@@ -1,0 +1,115 @@
+//nav{
+//  width: 100%;
+//  margin-top: 1.5em;
+//  padding: 1em;
+//  $border: 1px solid rgba($blanco,.3);
+//  border-top: $bordes;
+//  border-bottom: $bordes;
+//}
+//.icon-menu{
+//  background: $azul-oscuro;
+//  font-size: 2em;
+//  line-height: 3em;
+//  height: 1.5em;
+//  color: $blanco;
+//  cursor: pointer;
+//  &:before{
+//    top: .25em;
+//
+//  }
+//}
+//.ed-menu{
+//  width: 100%;
+//  background: $azul1;
+//  @include desde(web){
+//    background:transparent;
+//  }
+//  @include hasta(web){
+//    display: none;
+//  }
+//  li{
+//    transition: all .3s;
+//    &:hover{
+//      background: darken($azul1,10) !important;
+//      @include desde(web){
+//        background: rgba($azul1,0) !important;
+//
+//      }
+//    }
+//  }
+//  a{
+//    color: $blanco!important;
+//    text-transform: capitalize;
+//    font-family: $passion;
+//    font-size: 1.3em;
+//    transition: all .3s;
+//    line-height: 2em !important;
+//    @include desde(web){
+//      line-height: 1.5em !important;
+//    }
+//    &:hover{
+//      @include desde(web){
+//        color: $color-menu-hover!important;
+//
+//      }
+//    }
+//  }
+//}
+.nav{
+  margin-top: 1em;
+  border: 1px solid rgba(#fff,.5);
+  border-right: none;
+  border-left: none;
+  padding: 1em 0;
+}
+.toggle-menu{
+  @include to(web){
+    background-color: #438ba4;
+    max-height: 3em;
+  }
+  display: flex;
+  justify-content: center;
+  padding: .8rem 0;
+  cursor: pointer;
+  img{
+    display: block;
+    width: 1.5em;
+    height: auto;
+  }
+}
+.menu{
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  background-color: #70a2b9;
+  display: none;
+  @include from(web){
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    li{
+      border-right: 1px solid rgba(#fff,.5);
+      padding: 0 1.5em;
+      &:last-child{
+        border-right: none;
+      }
+    }
+  }
+  a{
+    color: #fdfdfd !important;
+    text-transform: capitalize;
+    font-family: Passion One,cursive;
+    font-size: 1.3em;
+    transition: all .3s;
+    display: block;
+    line-height: 2em;
+    @include from(web){
+      line-height: 1.5em;
+    }
+    &.selected, &:hover{
+      color: #2d5d6e  !important;
+    }
+  }
+}
+

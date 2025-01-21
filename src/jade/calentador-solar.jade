@@ -1,0 +1,65 @@
+extends templates/template
+append config
+    -paginaActual = "ventilación y extracción"
+    -titulo = "Ventilación y Extracción"
+
+block banner
+    img.img(src="img/banner-calentador.jpg")
+block main
+    h1.title-page.color-blanco Somos Distribuidor Autorizado de los Productos:
+    //- .syp-container.ed-item
+    //-   img.syp(src="img/logo.svg")
+    //- .tabs__links.ed-item
+    //-     //- Loop para crear los cinco enlaces
+    //-     -var tabs = ["División Hábitat"]
+    //-     each tab in tabs
+    //-         //- Cada uno de los enlaces
+    //-         a(href="##{tab}") #{tab}
+
+    //- Contenedor para los contenidos
+    .tabs__contents#solar
+        .tabs__contents__item(id="#Minisplit")
+            .ed-container
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4
+                    a.group1(href="img/cs2.jpg")
+                        img.imagenes-prod-item(src="img/cs2.jpg")
+                    a.link.link-modal(target="_blank" href='img/cs2-ficha.jpg')
+                      strong Ficha Técnica
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4
+                    a.group1(href="img/cs2.jpg")
+                        img.imagenes-prod-item(src="img/cs1.jpg")
+                    a.link.link-modal(target="_blank" href='img/cs1-ficha.jpg')
+                      strong Ficha Técnica
+    script.
+      var linksMoldal = Array.from(document.querySelectorAll('.link-modal'))
+      var container = document.querySelector('#solar')
+      console.log(linksMoldal)
+      linksMoldal.map(el=>{
+        el.addEventListener('click', function(e){
+          e.preventDefault()
+          console.log(el)
+          let modal = document.createElement('div')
+          modal.className = 'modalFT'
+          modal.innerHTML = `
+            <div class="modalFT__container">
+              <div class="modalFT__close"></div>
+              <img class="modalFT__img" src="${el.href}">
+            </div>
+          `
+          console.log(modal)
+          document.body.appendChild(modal)
+          modal.addEventListener('click',function(e){
+            if (e.target.nodeName!=='IMG'){
+              this.remove()
+
+            }
+          })
+        })
+      })
+      //- container.addEventListener('click', function(e){
+      //-   e.preventDefault()
+      //-   console.log(e.target)
+      //-   //- alert('click')
+      //- })

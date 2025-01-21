@@ -1,0 +1,15 @@
+@function img($imagen){
+  @return url('../img/' + $imagen);
+}
+
+@function texto3d($numero,$color){
+  $text-shadow: 2px 2px #000;
+  @for $i from 1 through $numero {
+    $text-shadow: '#{$text-shadow},
+					   #{$i}px #{$i}px #{$color}';
+  }
+  @return unquote($text-shadow);
+}
+@function borde($color,$ancho){
+  @return $ancho solid $color;
+}

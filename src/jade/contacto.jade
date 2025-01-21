@@ -1,0 +1,94 @@
+extends templates/template
+append config
+  -paginaActual = "contacto"
+  -titulo = "Contacto"
+block banner
+  img.img(src="img/productos/nueva/magnum17.jpg")
+block main
+  script(src='js/contacto.js')
+  h1.title-page Aire Acondicionado de Occidente S.A de C.V.
+  .ed-container.contacto#contacto
+    .ed-item.web-40.no-padding
+      h2.city-phone.gdl
+        span G
+        | uadalajara
+      h2.city-phone.leon
+        span L
+        | eón
+      h2.city-phone.qrt
+        span Q
+        | ueretaro
+      p.adress-contacto.city-phone.gdl Colon 850, Colonia Moderna, Guadalajara, Jalisco
+      p.adress-contacto.city-phone.leon Boulevard Juan José Torres Landa 5306 local 5 Col. Jardines de Jerez, León, Guanajuato
+      p.adress-contacto.city-phone.qrt Santo Domingo #109-b, Col. Fraccionamiento Carretas, Queretaro, Queretaro
+      .datos
+        p.phone-title Telefonos:
+        ul.tel.city-phone.gdl
+          li: a(href="https://api.whatsapp.com/send?phone=+5213316006582&text=Quiero mas información sobre sus productos", target="_blank") 33 1600 6582
+          li: a(href="https://api.whatsapp.com/send?phone=+52133185079102&text=Quiero mas información sobre sus productos", target="_blank") 33 1850 7910
+          //- li: a.telefono(href="tel://38558121") 33 38 55 81 21
+          //- li: a.telefono(href="tel://36133718") 33 36 13 37 18
+          //- li: a.telefono(href="tel://36193188") 33 36 19 31 88
+          //- li: a.telefono(href="tel://36582338") 33 36 58 23 38
+        ul.tel.city-phone.leon
+          li: a.telefono(href="tel://4771675008") 47 71 67 50 08
+          li: a.telefono(href="tel://4771675009") 47 71 67 50 09
+        ul.tel.city-phone.qrt
+          li: a.telefono(href="tel:33182457") 33 18 24 48 57
+          //- li: a(href="https://api.whatsapp.com/send?phone=+5213317665454&text=Quiero mas información sobre sus productos", target="_blank") Whatsapp: 33 17 66 54 54
+        p.phone-title Solicitud de Factura:
+        ul.tel
+          li: a(href="mailto:facturacion@aadoccsa.com.mx") facturacion@aadoccsa.com.mx
+      .mapa
+        a.inline(href="mapas/gdl.html" title="Av. Colon 850, Colonia Moderna")
+          img(src="img/mapa.jpg")
+    .ed-item.web-60.no-padding.formulario
+      //- h2
+      //-   span F
+      //-   | ormulario de Contacto
+
+      //- form#formulario.gdl(method='post', action='/php/enviar.php')
+      //-   ul
+      //-     li
+      //-       label  * Nombre:
+      //-       input#nombre.constyles(type='text', name='nombre', autofocus='', required='')
+      //-     li
+      //-       label  * Teléfono:
+      //-       input#telefono.constyles(type='number', name='telefono', required='')
+      //-     li
+      //-       label  * Email:
+      //-       input#email.constyles(type='email', name='email', required='')
+      //-     li
+      //-       label  * Mensaje:
+      //-       textarea#mensaje.constyles1(name='mensaje', required='')
+      //-     p.co * Campos Obligatorios
+      //-     button(type="submit").btn Enviar
+//-block scripts
+  script.
+    var form = $('#formulario'),
+        name = $('#nombre'),
+        phone = $('#telefono'),
+        email = $( '#email'),
+        message = $('#mensaje')
+    function verifyInputs() {
+        if (name != '' && name != null && phone != '' && phone != null && email != '' && email != null && message != '' && message != null) {
+            return true
+        }
+    }
+    form.on('submit', function (e) {
+        e.preventDefault()
+        var m = 'POST',
+            a = $(this).attr('action'),
+            data = $(this).serialize()
+        console.log(m,a, data)
+        $.ajax({
+          url : a,
+          type : m,
+          dataType: "json",
+          crossDomain: true,
+          data : data,
+          success : function (res) {
+              console.log(res)
+          }
+        })
+    })

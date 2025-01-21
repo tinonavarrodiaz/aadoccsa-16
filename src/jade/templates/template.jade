@@ -1,0 +1,124 @@
+block config
+  include ../config/variables
+
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="Expires" content="0")
+    meta(http-equiv="Last-Modified" content="0")
+    meta(http-equiv="Cache-Control" content="no-cache, mustrevalidate")
+    meta(http-equiv="Pragma" content="no-cache")
+    title Aire Acondicionado | AADOCCSA
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    meta(name="description", content="#{descripcion}")
+    meta(name="author", content="#{autor}")
+    link(rel="shortcut icon", href="img/favicon.png")
+    link(href="https://file.myfontastic.com/h42XLQ3U8kEEezMFceC79Q/icons.css" rel="stylesheet")
+    link(rel="stylesheet", href="assets/css/ed-ui.css")
+    link(rel="stylesheet" href="assets/nivo/css/themes/default/default.css"
+    type="text/css" media="screen")
+    link(rel="stylesheet" href="assets/nivo/css/nivo-slider.css" type="text/css"
+            media="screen")
+    link(rel="stylesheet" href="assets/nivo/css/style.css" type="text/css" media="screen")
+    link(rel="stylesheet" href="assets/color-box/css/colorbox.css")
+    link(rel="stylesheet", href="assets/css/normalize.css")
+    link(rel="stylesheet", href="css/styles.css")
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWELTFDPQF"></script>
+
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TWELTFDPQF');
+
+    //-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //-   (i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
+    //-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    //-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    //-   ga('create', 'UA-65562476-1', 'auto');
+    //-   ga('send', 'pageview');
+    //- //- <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=b940ec45-804b-4ee4-8bfa-cdeb92479154"> </script>
+-const city = 'leon'
+body( class="#{paginaActual} page-gdl")
+    .header__top
+      .pcs-container
+        .pcs-item
+            p.city-phone.gdl.icon1-map Colon 850, Colonia Moderna, Guadalajara, Jalisco
+            p.city-phone.leon.icon1-map Boulevard Juan José Torres Landa 5306 local 5 Col. Jardines de Jerez
+            p.city-phone.qrt.icon1-map Santo Domingo #109-b, Col. Fraccionamiento Carretas, Queretaro, Queretaro
+        .pcs-item.tar
+            //- p.city-phone.gdl.icon1-phone#gdl
+              //- a(href="tel:3338558121" style="color:#fff;") 33 38 55 81 21
+              //- |  /
+              //- a(href="tel:3336133718" style="color:#fff;") 33 36 13 37 18
+              //- |  /
+              //- a(href="tel:3336193188" style="color:#fff;") 33 36 19 31 88
+              //- |  /
+              //- a(href="tel:3336582338" style="color:#fff;") 33 38 55 81 21
+            a.icon1-whatsapp(href="https://api.whatsapp.com/send?phone=+5213316006582&text=Quiero mas información sobre sus productos", target="_blank") 33 1600 6582
+
+            a.icon1-whatsapp.ml15(href="https://api.whatsapp.com/send?phone=+52133185079102&text=Quiero mas información sobre sus productos", target="_blank") 33 1850 7910
+            //- p.city-phone.qrt.icon1-phone#qrt
+            //-   a(href="tel:33182457" style="color:#fff;") 33 18 24 48 57
+            //-   a.icon1-whatsapp(href="https://api.whatsapp.com/send?phone=+5213317665454&text=Quiero mas información sobre sus productos", target="_blank") 33 17 66 54 54
+            //- p.city-phone.leon.icon1-phone#leon
+            //-   a(href="tel:4771675008" style="color:#fff;") 47 71 67 50 08
+            //-   |  /
+            //-   a(href="tel:4771675009" style="color:#fff;") 47 71 67 50 09
+            //-   a.icon1-whatsapp(href="https://api.whatsapp.com/send?phone=+5213317665454&text=Quiero mas información sobre sus productos", target="_blank") 33 17 66 54 54
+    header.header.header__fondo
+      .ed-container
+        .ed-item.tablet-75.top-bar
+            h1 Aire Acondicionado de Occidente S.A de C.V.
+        .ed-item.tablet-25.top-bar.pright
+          include ../blocks/logo
+
+        .ed-item
+          nav.nav
+
+            .toggle-menu.hasta-web.main-center#toggle-menu
+              img(src="img/menu.svg")
+            ul.menu#menu
+              include ../blocks/menu
+    #banner.ed-container
+      .ed-item.banner
+        block banner
+    section.ed-container.slogan-container
+      include ../blocks/slogan
+    #main.ed-container
+      block main
+    aside.aside
+      include ../blocks/aside
+    footer.footer
+      include ../blocks/footer
+    script(src="assets/jquery.js")
+    script(src="assets/color-box/js/jquery.colorbox.js")
+    script(src="assets/color-box/js/color-box.js")
+    //- script(src="js/google.js")
+    script(src="assets/nivo/js/jquery.nivo.slider.js")
+    script(src="js/scripts.js")
+    script(src="assets/js/city.js")
+    script(src="assets/js/scripts-es6.js")
+
+    block scripts
+    script.
+      //- (function () {
+      //-   var options = {
+      //-       whatsapp: "+52 1 33 1766 5454", // WhatsApp number
+      //-       email: "formulario@aadoccsa.com.mx", // Email
+      //-       //call: "33 3658 2338", // Call phone number
+      //-       company_logo_url: "https://www.aadoccsa.com.mx/img/logo2.png", // URL of company logo (png, jpg, gif)
+      //-       greeting_message: "Hola, ¿Cómo podemos ayudarte?", // Text of greeting message
+      //-       call_to_action: "Contáctanos", // Call to action
+      //-       button_color: "#941600", // Color of button
+      //-       position: "left", // Position may be 'right' or 'left'
+      //-       order: "whatsapp,call,email" // Order of buttons
+      //-   };
+      //-   var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      //-   var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      //-   s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      //-   var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      //- })();

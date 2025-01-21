@@ -1,0 +1,112 @@
+.header{
+  position: relative;
+  padding-bottom: 1em;
+  background: img('bg1.jpg');
+  &__fondo{
+    background: img('bg-3.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    @include desde(web){
+      background-size: 100%;
+    }
+  }
+  .logo{
+    margin-top: 2em;
+  }
+}
+.slogan-container{
+  margin-top: 0;
+}
+.slogan{
+  font-family: $passion;
+  font-size: 2em;
+  text-align: center;
+  color: $blanco;
+  line-height: 1;
+  @include desde(web){
+    font-size: 3em;
+  }
+  span{
+    color: $darken-rojo;
+  }
+}
+
+.header__top{
+  background: rgba(#333,.8);
+  color: #fff;
+}
+.pcs-container{
+  max-width: $max-width;
+  margin: 0 auto;
+  // display: grid;
+  // grid-template-columns: 1fr auto;
+  display: flex;
+  flex-direction: column;
+  padding: .5em 0;
+  @include from(web){
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+}
+.pcs-item{
+  flex-basis: 50%;
+  text-align: center;
+  @include from(web){
+    text-align: left;
+  }
+}
+.tar{
+  @include from(web){
+    text-align: right;
+  }
+  a.icon1-whatsapp{
+    color: #fff;
+    margin-left: .5em;
+    margin-right: .5em;
+    &::before{
+      position: relative;
+      top: 2px;
+    }
+  }
+}
+.top-bar{
+  display: flex;
+  justify-content: center;
+  //background: red;
+  @include from(web){
+    height: 120px;
+
+    justify-content: flex-start;
+    align-items: center;
+    &.pright{
+      justify-content: flex-end;
+    }
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: texto3d(5,#333);
+    @include from(web){
+      text-align: left;
+    }
+  }
+  img{
+    max-height: 80%;
+    width: auto;
+  }
+}
+.city-phone{
+  display: none;
+  margin: 0;
+  &.show{
+    display: block;
+  }
+}
+p.qrt{
+  font-size: .9em;
+}
+p::before{
+  position: relative;
+  top: .2em;
+  margin-right: .4em;
+}

@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+public-gdl/
+public-leon/
+public-qrt/
+public/
+mail/
+mail.tar.gz
+yarn.lock

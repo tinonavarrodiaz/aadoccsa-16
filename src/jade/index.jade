@@ -1,0 +1,48 @@
+extends templates/template
+append config
+  -paginaActual = "inicio"
+  -titulo = "Incio"
+  -videos = ["https://www.youtube.com/embed/FbyfbzhsUYg?rel=0","https://www.youtube.com/embed/MS9u1LLn3ao?rel=0","https://www.youtube.com/embed/M-XXnQSdM2g?rel=0","https://www.youtube.com/embed/K3vtp92hoCk?rel=0","https://www.youtube.com/embed/8_T8fBI6wyo?rel=0","https://www.youtube.com/embed/xTQDaaSeCZk?rel=0","https://www.youtube.com/embed/UFqvQ53u1dQ?rel=0","https://www.youtube.com/embed/bERMZVxBX4k?rel=0","https://www.youtube.com/embed/RNZrmWxKq7c?rel=0","https://www.youtube.com/embed/xLrJ64F2JXg?rel=0","https://www.youtube.com/embed/hay6jrMFSSQ?rel=0"]
+
+
+block banner
+  .slider-wrapper.theme-default
+    #slider.nivoSlider
+      -for (var i = 1; i<=4; i++)
+        img(src="img/slider/slider#{i}.jpg")
+
+block main
+  .ed-container.gridContainer
+    .home
+      a.link-title(href="servicios.html"): h2.home__title Servicios
+      ul.home__services
+        li ventas
+        li instalacion
+        li reparaciones
+        li mantenimientos
+      a.vermas(href="servicios.html") ver más
+    .home
+      a.link-title(href="productos.html"): h2.home__title Productos
+      p.home__text Somos Distribuidores autorizados de los Productos
+      .img-container
+        img.home__img(src="img/logosmall.png")
+        a(href="extraccion.html")
+          img(src="img/logo.svg").sypImg
+        p Ventilacion y Extracción
+      a.vermas(href="productos.html") ver más
+    .home
+      a.link-title(href="promociones.html"): h2.home__title Promociones
+      p.home__text Contamos con una gran variedad de promociones
+      a.vermas(href="promociones.html") ver más
+    .home
+      a.link-title(href="ofertas.html"): h2.home__title Ofertas
+      p.home__text Visite nuestra sección de oferta para conocer los prouctos que tenemos en descuento
+      a.vermas(href="ofertas.html") ver más
+  .ed-container
+    .ed-item
+      blockquote.home-title Sabemos lo que usted necesita
+        span Porque somos líderes
+  .videos-container
+    each vid in videos
+      .ed-video
+        iframe(src=vid frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

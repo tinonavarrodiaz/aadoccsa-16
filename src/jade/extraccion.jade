@@ -1,0 +1,206 @@
+extends templates/template
+append config
+    -paginaActual = "ventilación y extracción"
+    -titulo = "Ventilación y Extracción"
+
+block banner
+    img.img(src="img/syp/syp-banner.jpg")
+block main
+    h1.title-page.color-blanco Somos Distribuidor Autorizado de los Productos:
+    .syp-container.ed-item
+      img.syp(src="img/logo.svg")
+    .tabs__links.ed-item
+        //- Loop para crear los cinco enlaces
+        -var tabs = ["División Hábitat","División Comercial","División Industrial","División OEM", "Cortinas de Aire"]
+        each tab in tabs
+            //- Cada uno de los enlaces
+            a(href="##{tab}") #{tab}
+
+    //- Contenedor para los contenidos
+    .tabs__contents
+        .tabs__contents__item(id="#Minisplit")
+            .ed-container
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4 FUTURE:
+                    a.group1(href="img/syp/HABFUT.jpg")
+                        img.imagenes-prod-item(src="img/syp/HABFUT.jpg")
+                    a.link(target="_blank" href='assets/pdf/soler/F.T.FUTURE.pdf')
+                      strong Ficha Técnica
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4 SILENT:
+                    a.group1(href="img/syp/HABSIL.jpg")
+                      img.imagenes-prod-item(src="img/syp/HABSIL.jpg")
+                    a.link(target="_blank" href='assets/pdf/soler/F.T.SILENT.pdf')
+                      strong Ficha Técnica
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4 SILENT DESIGN:
+                    a.group1(href="img/syp/HABSILDES.jpg")
+                        img.imagenes-prod-item(src="img/syp/HABSILDES.jpg")
+                    a.link(target="_blank" href='assets/pdf/soler/F.TSILENTDESIGN.pdf')
+                       strong Ficha Técnica
+                .ed-item.btn-container
+                    button.btn.see-more#one Ver Más
+
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4 HAE:
+                    a.group1(href="img/syp/HABHAE.jpg")
+                        img.imagenes-prod-item(src="img/syp/HABHAE.jpg")
+                    a.link(target="_blank" href='assets/pdf/soler/SP-HAE.pdf')
+                        strong Ficha Técnica
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                    h4 HCM:
+                    a.group1(href="img/syp/HABHCM.jpg")
+                        img.imagenes-prod-item(src="img/syp/HABHCM.jpg")
+                    a.link(target="_blank" href='assets/pdf/soler/F.T.HCM.pdf')
+                        strong Ficha Técnica
+                .ed-item.tablet-50.web-1-3.imagenes-prod
+                  h4 TD:
+                  a.group1(href="img/syp/HABTD.jpg")
+                    img.imagenes-prod-item(src="img/syp/HABTD.jpg")
+                  a.link(target="_blank" href='assets/pdf/soler/F.T.TD.pdf')
+                    strong Ficha Técnica
+
+        .tabs__contents__item(id="Linea Hogar")
+          .ed-container
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 WXD-A:
+              a.group1(href="img/syp/COMAXPWXA.jpg")
+                img.imagenes-prod-item(src="img/syp/COMAXPWXA.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/WX.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 WXD-S:
+              a.group1(href="img/syp/COMAXPWXS.jpg")
+                img.imagenes-prod-item(src="img/syp/COMAXPWXS.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/WXD-S.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 WXT:
+              a.group1(href="img/syp/COMAXPWXT.jpg")
+                img.imagenes-prod-item(src="img/syp/COMAXPWXT.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/WX.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 HAB-T:
+              a.group1(href="img/syp/COMCENICR.jpg")
+                img.imagenes-prod-item(src="img/syp/COMCENICR.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/FTHAB-T.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 HAM:
+              a.group1(href="img/syp/COMTXHAM.jpg")
+                img.imagenes-prod-item(src="img/syp/COMTXHAM.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-HAM.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 RX-A-D:
+              a.group1(href="img/syp/COMTXRXA.jpg")
+                img.imagenes-prod-item(src="img/syp/COMTXRXA.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-RXTD.pdf')
+                    strong Ficha Técnica
+
+
+        .tabs__contents__item(id="Paquetes")
+          .ed-container
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 DX-S:
+              a.group1(href="img/syp/INDVADDXS.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVADDXS.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-DX.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 AVR:
+              a.group1(href="img/syp/INDAVR.jpg")
+                img.imagenes-prod-item(src="img/syp/INDAVR.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-AVR.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 C/DAHF:
+              a.group1(href="img/syp/INDUDVCDAHF.jpg")
+                img.imagenes-prod-item(src="img/syp/INDUDVCDAHF.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-CDAFH.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 BIL:
+              a.group1(href="img/syp/INDVCTL.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVCTL.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-BIL.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 DA:
+              a.group1(href="img/syp/INDVACDA.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVACDA.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/SP-DA-B-T.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 CXW:
+              a.group1(href="img/syp/INDCENCXW.jpg")
+                img.imagenes-prod-item(src="img/syp/INDCENCXW.jpg")
+              a.link(target="_blank" href='assets/pdf/soler/CXW.pdf')
+                    strong Ficha Técnica
+
+        .tabs__contents__item(id="Divididos")
+          .ed-container
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 VT:
+              a.group1(href="img/syp/COMTUBVT.jpg")
+                img.imagenes-prod-item(src="img/syp/COMTUBVT.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/SP-VT.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 CMD:
+              a.group1(href="img/syp/INDVGVCMD.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVGVCMD.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/SP-CMD.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 BDB:
+              a.group1(href="img/syp/INDVGVBDB.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVGVBDB.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/SP-BDB.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 BNC R:
+              a.group1(href="img/syp/INDVCTBNC.jpg")
+                img.imagenes-prod-item(src="img/syp/INDVCTBNC.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/SP-BNC-RPQ-web18072019.pdf')
+                    strong Ficha Técnica
+         .tabs__contents__item(id="cortinas")
+          .ed-container
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-N:
+              a.group1(href="img/syp/CORTINAS_SerCOR_N_product1_255.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_SerCOR_N_product1_255.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-N.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-NW:
+              a.group1(href="img/syp/CORTINAS_SerCOR_NW_product1_94.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_SerCOR_NW_product1_94.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-NW.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-FT:
+              a.group1(href="img/syp/CORTINAS_SerCOR_FT_product1_180.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_SerCOR_FT_product1_180.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-FT.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-FTW
+              a.group1(href="img/syp/CORTINAS_SerCOR_FTW_product1_72.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_SerCOR_FTW_product1_72.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-FTW.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-N RF
+              a.group1(href="img/syp/CORTINAS_COR-N-RF_product1_155.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_COR-N-RF_product1_155.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-N-RF.pdf')
+                    strong Ficha Técnica
+            .ed-item.tablet-50.web-1-3.imagenes-prod
+              h4.text-4 COR-IND
+              a.group1(href="img/syp/CORTINAS_SerCOR_IND_product1_69.jpg")
+                img.imagenes-prod-item(src="img/syp/CORTINAS_SerCOR_IND_product1_69.jpg")
+                a.link(target="_blank" href='assets/pdf/soler/ES_COR-IND-MW.pdf')
+                    strong Ficha Técnica
+
